@@ -1,0 +1,13 @@
+[project]
+name = "aiupdate"
+version = "0.1.0"
+description = "Update all AI coding tools in parallel"
+requires-python = ">=3.10"
+dependencies = ["rich>=13.0.0"]
+
+[project.scripts]
+aiupdate = "aiupdate:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
